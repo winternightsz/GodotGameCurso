@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1crqhg5uq52s"]
+
+[ext_resource type="Script" path="res://Porta.cs" id="1_a00ik"]
+
+[node name="Porta" type="Area2D"]
+script = ExtResource("1_a00ik")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
